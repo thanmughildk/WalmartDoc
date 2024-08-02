@@ -1,0 +1,4 @@
+docker ps
+docker ps -a
+docker ps
+doskey /h > c:\cmd_history.txt

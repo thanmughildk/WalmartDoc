@@ -1,0 +1,32 @@
+Invalid macro definition.
+cd "C:\Users\Dev\Desktop\"
+docker build -t ubuntu-java .
+dir
+mv Dockerfile.dockerfile Dockerfile
+dir
+mv Dockerfile Dockerfile
+docker build -t ubuntu-java .
+cls
+docker build -t ubuntu-java
+docker build -t ubuntu-java .
+docker images
+docker rmi ubuntu-java
+docker images
+docker build -t ubuntu-java .
+docker images
+docker rmi ubuntu-java
+docker build -t ubuntu-java .
+docker run -it ubuntu-java
+docker run -v G:\Walmart\Docker_mnt:tmp ubuntu-java
+docker run -v G:\Walmart\Docker_mnt:/tmp ubuntu-java
+docker run -v G:\Walmart\Docker_mnt:/tmp -it ubuntu-java
+docker build -t ubuntu-java .
+docker run -v G:\Walmart\Docker_mnt:/tmp ubuntu-java
+docker build -t ubuntu-java .
+docker run -v G:\Walmart\Docker_mnt:/tmp -e no_of_time=100 ubuntu-java 
+docker run -v G:\Walmart\Docker_mnt:/tmp -e no_of_time=10 ubuntu-java
+docker push
+docker tag ubuntu-java:latest thanmughil/test:latest
+docker login
+history
+doskey /h > c:\cmd_history. txt
